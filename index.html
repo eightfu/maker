@@ -1,0 +1,580 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>创客科技实验室</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Learn Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/jquery.countdown.css" />
+
+<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+<!--font-Awesome-->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!--font-Awesome-->
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container">
+	    <div class="navbar-header">
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">导航</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+	        </button>
+	        <a class="navbar-brand" href="index.html">科技实验室|Maker</a>
+	    </div>
+	    <!--navbar-header导航栏头部-->
+	    <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
+	        <ul class="nav navbar-nav">
+		        <li class="dropdown">
+		            <a href="login.html"><i class="fa fa-user"></i><span>登录|注册</span></a>
+		        </li>
+		        <li class="dropdown">
+		        	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-list"></i><span>课程</span></a>
+		        	  <ul class="dropdown-menu">
+			            <li><a href="courses.html">课程分类</a></li>
+			            <li><a href="courses.html">课程列表</a></li>
+			            <li><a href="course_detail.html">详细信息</a></li>
+		              </ul>
+		        </li>
+		        <li class="dropdown">
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-calendar"></i><span>校内活动</span></a>
+		             <ul class="dropdown-menu">
+			            <li><a href="events.html">黏土机器人</a></li>
+			            <li><a href="events.html">创客周</a></li>
+			            <li><a href="events.html">一起DIY</a></li>
+		             </ul>
+		        </li>
+		        <li class="dropdown">
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i><span>English</span></a>
+		            <ul class="dropdown-menu">
+			            <li><a href="#"><span><i class="flags us"></i><span>English</span></span></a></li>
+			        </ul>
+		        </li>
+		        <li class="dropdown">
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i><span>搜索</span></a>
+		            <ul class="dropdown-menu search-form">
+			           <form>        
+                            <input type="text" class="search-text" name="s" placeholder="Search...">    
+                            <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+                       </form>
+			        </ul>
+		        </li>
+		    </ul>
+	    </div>
+	    <div class="clearfix"> </div>
+	  </div>
+	    <!--/.navbar-collapse-->
+</nav>
+<nav class="navbar nav_bottom" role="navigation">
+ <div class="container">
+ <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header nav_2">
+      <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+   </div> 
+   <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+        <ul class="nav navbar-nav nav_1">
+            <li ><a class='active' href="index.html">首页</a></li>
+            <li><a href="about.html">关于科技实验室</a></li>
+    		<li class="dropdown mega-dropdown active">
+			    <a href="#" class="dropdown-toggle" data-toggle="dropdown">创客社区<span class="caret"></span></a>				
+				<div class="dropdown-menu mega-dropdown-menu">
+                    <div class="container-fluid">
+    				    <!-- Tab panes -->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="men">
+                            <ul class="nav-list list-inline">
+                                <li><a href="introduce.html"><img src="images/t7.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t8.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t9.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t1.jpg" class="img-responsive" alt=""/></a></li>
+                            </ul>
+                          </div>
+                          <div class="tab-pane" id="women">
+                            <ul class="nav-list list-inline">
+                                <li><a href="introduce.html"><img src="images/t1.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t2.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t3.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t4.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t8.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t6.jpg" class="img-responsive" alt=""/></a></li>
+                            </ul>
+                         </div>
+                       </div>
+                    </div>
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                       <li class="active"><a href="#men" role="tab" data-toggle="tab">School</a></li>
+                       <li><a href="#women" role="tab" data-toggle="tab">College</a></li>
+                   </ul>                    
+				</div>				
+			</li>
+			<li><a href="http://www.aixuetang.com/">爱学堂</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">学习资源<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="resource.html">视频资源</a></li>
+                <li><a href="shortcodes.html">课件下载</a></li>
+                <li><a href="faq.html">教学交流</a></li>
+              </ul>
+            </li>
+            <li><a href="features.html">师生风采</a></li>
+            <li><a href="blog.html">博文</a></li>
+            <!-- <li><a href="features.html">未来教育</a></li> -->
+            <li class="last"><a href="contact.html">交流论坛</a></li>
+        </ul>
+     </div><!-- /.navbar-collapse -->
+   </div>
+</nav>
+<!-- banner 轮播图-->
+	<div class="jumbotron">
+		<div class="banner">
+			<!-- banner Slider starts Here -->
+					<script src="js/responsiveslides.min.js"></script>
+					 <script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						  // Slideshow 4
+						  $("#slider3").responsiveSlides({
+							auto: true,
+							pager: true,
+							nav: true,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+							  $('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+							  $('.events').append("<li>after event fired.</li>");
+							}
+						  });
+					
+						});
+					  </script>
+					<!--//End-slider-script -->
+					<div  id="top" class="callbacks_container">
+						<ul class="rslides" id="slider3">
+							<li>
+								<div class="banner-bg">
+									<div class="container">
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="banner-bg banner-img2">
+									<div class="container">
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="banner-bg banner-img">
+									<div class="container">
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="banner-bg banner-img1">
+									<div class="container">
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="banner-bg banner-img2">
+									<div class="container">
+									</div>
+								</div>
+							</li>
+							
+						</ul>
+		          </div>
+		    </div>
+	</div>
+	<!-- //banner -->
+    <!-- <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >手机网站模板</a></div> -->
+	<div class="details">
+       <div class="container">
+		 <div class="col-sm-10 dropdown-buttons">   
+			<div class="col-sm-3 dropdown-button">           			
+    		  <div class="input-group">
+                <input class="form-control has-dark-background" name="slider-name" id="slider-name" placeholder="姓名" type="text" required="">
+              </div>
+			</div>
+			<div class="col-sm-3 dropdown-button">           			
+    		  <div class="input-group">
+                <input class="form-control has-dark-background" name="slider-name" id="slider-name" placeholder="邮箱" type="text" required="">
+              </div>
+			</div>
+    	   <div class="col-sm-3 dropdown-button">           			
+    		  <div class="section_1">
+				 <select id="country" onChange="change_country(this.value)" class="frm-field required">
+					<option value="null">学习水平</option>
+					<option value="null">初级</option>         
+					<option value="AX">中级</option>
+					<option value="AX">高级</option>
+				 </select>
+			  </div>
+			</div>
+		     <div class="col-sm-3 dropdown-button">
+			  <div class="section_1">
+				 <select id="country" onChange="change_country(this.value)" class="frm-field required">
+					<option value="null">课程</option>
+					<option value="null">初中配套课程</option>         
+					<option value="AX">创客课程</option>
+					<option value="AX">头脑风暴</option>
+				 </select>
+			  </div>
+			 </div>
+			 <div class="clearfix"> </div>
+		  </div> 
+		  <div class="col-sm-2 submit_button"> 
+		   	  <form>
+		   	     <input type="submit" value="搜索">
+		   	  </form>
+		   </div>
+		   <div class="clearfix"> </div>
+	     </div>
+     </div>
+     
+     <div class="grid_1">
+     	<div class="container">
+     		<div class="col-md-4">
+                <div class="news">
+                    <h1>热点新闻/News</h1>
+                    <div class="section-content">
+                        <article>
+                            <figure class="date"><i class="fa fa-file-o"></i>11-10-2016</figure>
+                            <a href="#">当前，创客教育的实践探索正如火如荼地开展，教育部也提出要积极探索创客教育模式</a>
+                        </article>
+                        <article>
+                            <figure class="date"><i class="fa fa-file-o"></i>08-11-2016</figure>
+                            <a href="#">“居里夫人的科学课”给我们的启示</a>
+                        </article>
+                        <article>
+                            <figure class="date"><i class="fa fa-file-o"></i>08-24-2014</figure>
+                            <a href="#">浅谈中学生信息技术兴趣的培养</a>
+                        </article>
+                        <article>
+                            <figure class="date"><i class="fa fa-file-o"></i>07-17-2015</figure>
+                            <a href="#">文汇报：中国的STEM教育面临三大瓶颈</a>
+                        </article>
+                        
+                    </div><!-- /.section-content -->
+                    <a href="#" class="read-more">阅读更多</a>
+                </div><!-- /.news-small -->
+            </div>
+
+            <div class="col-md-8 grid_1_right">
+              <h2>作品展示/ShowTime</h2>
+		      <div class="but_list">
+		       <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+				<ul id="myTab" class="nav nav-tabs nav-tabs1" role="tablist">
+				  <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">星期一&nbsp;&nbsp;&nbsp;2016-11-11</a></li>
+				  <li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">星期三&nbsp;&nbsp;&nbsp;2016-11-13</a></li>
+				  <li role="presentation"><a href="#profile1" role="tab" id="profile-tab1" data-toggle="tab" aria-controls="profile1">星期五&nbsp;&nbsp;&nbsp;2016-11-18</a></li>
+				</ul>
+			<div id="myTabContent" class="tab-content">
+			  <div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+			    <div class="events_box">
+			    	<div class="event_left"><div class="event_left-item">
+			    		<div class="icon_2"><i class="fa fa-clock-o"></i>鱼菜共生</div>
+			    		<div class="icon_2"><i class="fa fa-location-arrow"></i>八(二)班</div>
+			    		<div class="icon_2">
+			    		  <div class="speaker">
+			    			  <i class="fa fa-user"></i>
+			    			  <div class="speaker_item">
+			    			     <a href="#">刘昊然</a>
+			    			  </div>
+			    			  <div class="clearfix"></div></div>
+			    		  </div>
+			    		</div>
+			    	</div>
+			    	<div class="event_right">
+						  <img src="images/t01.png" class="img-responsive" alt=""/>	
+						  <img src="images/t00.png" class="img-responsive" alt=""/>	
+		    	    </div>
+		    	    <div class="clearfix"></div>
+			   </div>
+			   <div class="events_box">
+			    	<div class="event_left"><div class="event_left-item">
+			    		<div class="icon_2"><i class="fa fa-clock-o"></i>小型挖掘机</div>
+			    		<div class="icon_2"><i class="fa fa-location-arrow"></i>七(五)班</div>
+			    		<div class="icon_2">
+			    		  <div class="speaker">
+			    			  <i class="fa fa-user"></i>
+			    			  <div class="speaker_item">
+			    			     <a href="#">杨洋</a>
+			    			  </div>
+			    			  <div class="clearfix"></div></div>
+			    		  </div>
+			    		</div>
+			    	</div>
+			    	<div class="event_right">
+						  <img src="images/t0.png" class="img-responsive" alt=""/>	
+						  <img src="images/t5.png" class="img-responsive" alt=""/>	
+		    	    </div>
+		    	    <div class="clearfix"></div>
+			   </div>
+			  </div>
+			  <div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab">
+			    <div class="events_box">
+			    	<div class="event_left"><div class="event_left-item">
+			    		<div class="icon_2"><i class="fa fa-clock-o"></i>09:00 - 10:30</div>
+			    		<div class="icon_2"><i class="fa fa-location-arrow"></i>七(三)班</div>
+			    		<div class="icon_2">
+			    		  <div class="speaker">
+			    			  <i class="fa fa-user"></i>
+			    			  <div class="speaker_item">
+			    			     <a href="#">李敏镐</a>
+			    			  </div>
+			    			  <div class="clearfix"></div></div>
+			    		  </div>
+			    		</div>
+			    	</div>
+			    	<div class="event_right">
+						  <img src="images/t8.jpg" class="img-responsive" alt=""/>	
+		    	    </div>
+		    	    <div class="clearfix"></div>
+			   </div>
+			   <div class="events_box">
+			    	<div class="event_left"><div class="event_left-item">
+			    		<div class="icon_2"><i class="fa fa-clock-o"></i>09:00 - 10:30</div>
+			    		<div class="icon_2"><i class="fa fa-location-arrow"></i>七(五)班</div>
+			    		<div class="icon_2">
+			    		  <div class="speaker">
+			    			  <i class="fa fa-user"></i>
+			    			  <div class="speaker_item">
+			    			     <a href="#">陈奕迅</a>
+			    			  </div>
+			    			  <div class="clearfix"></div></div>
+			    		  </div>
+			    		</div>
+			    	</div>
+			    	<div class="event_right">
+						  <img src="images/t2.jpg" class="img-responsive" alt=""/>	
+		    	    </div>
+		    	    <div class="clearfix"></div>
+			   </div>
+			</div>
+			<div role="tabpanel" class="tab-pane fade" id="profile1" aria-labelledby="profile-tab1">
+			    <div class="events_box">
+			    	<div class="event_left"><div class="event_left-item">
+			    		<div class="icon_2"><i class="fa fa-clock-o"></i>09:00 - 10:30</div>
+			    		<div class="icon_2"><i class="fa fa-location-arrow"></i>八(五)班</div>
+			    		<div class="icon_2">
+			    		  <div class="speaker">
+			    			  <i class="fa fa-user"></i>
+			    			  <div class="speaker_item">
+			    			     <a href="#">刘德华</a>
+			    			  </div>
+			    			  <div class="clearfix"></div></div>
+			    		  </div>
+			    		</div>
+			    	</div>
+			    	<div class="event_right">
+						  <img src="images/t7.jpg" class="img-responsive" alt=""/>	
+		    	    </div>
+		    	    <div class="clearfix"></div>
+			   </div>
+			   <div class="events_box">
+			    	<div class="event_left"><div class="event_left-item">
+			    		<div class="icon_2"><i class="fa fa-clock-o"></i>09:00 - 10:30</div>
+			    		<div class="icon_2"><i class="fa fa-location-arrow"></i>九(二)班</div>
+			    		<div class="icon_2">
+			    		  <div class="speaker">
+			    			  <i class="fa fa-user"></i>
+			    			  <div class="speaker_item">
+			    			     <a href="#">刘雯</a>
+			    			  </div>
+			    			  <div class="clearfix"></div></div>
+			    		  </div>
+			    		</div>
+			    	</div>
+			    	<div class="event_right">
+						  <img src="images/t4.jpg" class="img-responsive" alt=""/>	
+		    	    </div>
+		    	    <div class="clearfix"></div>
+			    </div>
+			   </div>
+		     </div>
+		    </div>
+		   </div>
+      </div>
+      <div class="clearfix"> </div>
+     </div>
+    </div>
+
+    <!-- 底部内容 -->
+    <div class="bottom_content">
+    <div class="container">
+   	 <h3>热门知识点</h3>
+     <div class="grid_2">
+     	<div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t15.png" class="img-responsive" alt=""/>
+                <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+               <h4><a href="http://www.xuetangx.com/fragment/440">如何用激光切割机切出一匹马</a></h4>
+               <p>Mauris diam massa, malesuada a sapien in, semper vehicula erat.</p>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t10.png" class="img-responsive" alt=""/>
+                 <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+               <h4><a href="http://www.xuetangx.com/fragment/439">孙悟空是怎么出生的?</a></h4>
+               <p>Mauris diam massa, malesuada a sapien in, semper vehicula erat. </p>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t17.png" class="img-responsive" alt=""/>
+                 <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+               <h4><a href="http://www.xuetangx.com/fragment/441">你认识几种宝石?</a></h4>
+               <p>Mauris diam massa, malesuada a sapien in, semper vehicula erat. </p>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="clearfix"> </div>
+     </div>
+     <div class="grid_3">
+     	<div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t11.png" class="img-responsive" alt=""/>
+                 <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+               <h4><a href="#">3D打印工作坊</a></h4>
+               <p>通过电脑、iPad、手机等设备绘制需要3D打印的图形，打印出绘制的物体。使学生学会3D打印的原理、绘制图纸、学习操作。</p>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t14.png" class="img-responsive" alt=""/>
+                 <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+               <h4><a href="#">创客养成计划</a></h4>
+               <p>通过体系化的IOROBOX机器人课程，让学生在“玩中学，做中学”的过程中锻炼包括创造力、动手能力、逻辑思维能力。</p>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t12.png" class="img-responsive" alt=""/>
+                 <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+               <h4><a href="#">黏土机器人</a></h4>
+               <p>粘土机器人是一项将粘土艺术与智能机器人结合的活动，学生可以在活动中DIY粘土机器人。培养学生包括科技素养、人文素养。 </p>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="clearfix"> </div>
+     </div>
+    </div>
+    </div>
+    <!--  -->
+    <div class="bg">
+     	<div class="container">
+     		<div class="timer_wrap">
+				<div id="counter"> </div>		
+			</div> 
+			<div class="newsletter">
+			  <form>
+				<input type="text" name="ne" size="30" required="" placeholder="请输入您的邮箱">
+				<input type="submit" value="订阅">
+			  </form>
+            </div>
+        </div>
+   </div>
+   
+    <div class="footer" style="background-color: ">
+    	<div class="container">
+    		<div class="col-md-3 grid_4">
+    		   <h3>创客实验室</h3>	
+    		   <ul class="footer_list">
+    				<li><a href="#">-  关于我们</a></li>
+    				<li><a href="#">-  学员故事</a></li>
+    				<li><a href="#">-  未来学校</a></li>
+    				<li><a href="#">-  线下活动</a></li>
+    			</ul>
+    		</div>
+    		<div class="col-md-3 grid_4">
+    		   <h3>友情链接</h3>
+    			<ul class="footer_list">
+    				<li><a href="#">-  学堂在线 </a></li>
+    				<li><a href="#">-  爱学堂</a></li>
+    				<li><a href="#">-  中小学信息技术学科学习平台</a></li>
+    				<li><a href="#">-  中国知网</a></li>
+    			</ul>
+    		</div>
+    		<div class="col-md-3 grid_4">
+    		   <h3>帮助支持</h3>
+    			<ul class="footer_list">
+    				<li><a href="#">-  帮助中心</a></li>
+    				<li><a href="#">-  新浪微博</a></li>
+    				<li><a href="#">-  隐私政策</a></li>
+    				<li><a href="#">-  腾讯云</a></li>
+    			</ul>
+    		</div>
+    		<div class="col-md-3 grid_4">
+    		   <h3>联系我们</h3>
+    		    <br>
+    			<address>
+                    <strong>地址：秦皇岛市开发区第一中学</strong>
+                    <br>
+                    <span>邮政编码：066001</span>
+                    <br>
+                    <abbr>电话: </abbr> 0335-1234567
+                    <br>
+                    <abbr>邮箱 : </abbr> <a href="mailto@example.com">info(at)Learn.com</a>
+               </address>
+            </div>
+    		<div class="clearfix"> </div>
+    		<div class="copy">
+		       <p>Copyright &copy; 2016.Company name All rights reserved.最终解释权归开发者所有</a></p>
+	        </div>
+    	</div>
+    </div>
+<script src="js/jquery.countdown.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>	

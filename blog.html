@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>博客文章</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Learn Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/jquery.countdown.css" />
+<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+<!--font-Awesome-->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!--font-Awesome-->
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">科技实验室|Maker</a>
+      </div>
+      <!--navbar-header导航栏头部-->
+      <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a href="login.html"><i class="fa fa-user"></i><span>登录|注册</span></a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-list"></i><span>课程</span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="courses.html">课程分类</a></li>
+                  <li><a href="courses.html">课程列表</a></li>
+                  <li><a href="course_detail.html">详细信息</a></li>
+                  </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-calendar"></i><span>校内活动</span></a>
+                 <ul class="dropdown-menu">
+                  <li><a href="events.html">黏土机器人</a></li>
+                  <li><a href="events.html">创客周</a></li>
+                  <li><a href="events.html">一起DIY</a></li>
+                 </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i><span>English</span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#"><span><i class="flags us"></i><span>English</span></span></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i><span>搜索</span></a>
+                <ul class="dropdown-menu search-form">
+                 <form>        
+                            <input type="text" class="search-text" name="s" placeholder="Search...">    
+                            <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+                       </form>
+              </ul>
+            </li>
+        </ul>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+      <!--/.navbar-collapse-->
+</nav>
+<nav class="navbar nav_bottom" role="navigation">
+ <div class="container">
+ <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header nav_2">
+      <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+   </div> 
+   <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+        <ul class="nav navbar-nav nav_1">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html">关于科技实验室</a></li>
+        <li class="dropdown mega-dropdown active">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">创客社区<span class="caret"></span></a>        
+        <div class="dropdown-menu mega-dropdown-menu">
+                    <div class="container-fluid">
+                <!-- Tab panes -->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="men">
+                            <ul class="nav-list list-inline">
+                                <li><a href="introduce.html"><img src="images/t7.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t8.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t9.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t1.jpg" class="img-responsive" alt=""/></a></li>
+                            </ul>
+                          </div>
+                          <div class="tab-pane" id="women">
+                            <ul class="nav-list list-inline">
+                                <li><a href="introduce.html"><img src="images/t1.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t2.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t3.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t4.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t8.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t6.jpg" class="img-responsive" alt=""/></a></li>
+                            </ul>
+                         </div>
+                       </div>
+                    </div>
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                       <li class="active"><a href="#men" role="tab" data-toggle="tab">School</a></li>
+                       <li><a href="#women" role="tab" data-toggle="tab">College</a></li>
+                   </ul>                    
+        </div>        
+      </li>
+      <li><a href="http://www.aixuetang.com/">爱学堂</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">学习资源<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="resource.html">视频资源</a></li>
+                <li><a href="shortcodes.html">课件下载</a></li>
+                <li><a href="faq.html">教学交流</a></li>
+              </ul>
+            </li>
+            <li><a href="features.html">师生风采</a></li>
+            <li><a class='active' href="blog.html">博文</a></li>
+            <!-- <li><a href="features.html">未来教育</a></li> -->
+            <li class="last"><a href="contact.html">交流论坛</a></li>
+        </ul>
+     </div><!-- /.navbar-collapse -->
+   </div>
+</nav>
+<!-- banner -->
+  <div class="courses_banner">
+  	<div class="container">
+  		<h3>博文</h3>
+  		<p class="description">
+             三人行，必有我师焉！一起来学习吧~
+        </p>
+        <div class="breadcrumb1">
+            <ul>
+                <li class="icon6"><a href="index.html">返回主页</a></li>
+                <li class="current-page">博客文章</li>
+            </ul>
+        </div>
+  	</div>
+  </div>
+    <!-- //banner -->
+	<div class="features">
+	   <div class="container">
+	   	  <h1>教师博客文章</h1>
+	   	  <div class="blog_box1">
+	   	   <dl class="item_info_dl">
+	   	   	<h2><a href="course_detail.html">创客教育的课程观</a></h2>
+		    <dd>
+				<address class="item_createdby">
+					转自<a href="course_detail.html">电化教育</a>			
+				</address>
+			</dd>
+			<dd>
+		       <time datetime="2015-05-01 19:45" class="item_published">
+			    on 10 Nov 2016			</time>
+	        </dd>
+			<dd>
+		      <span class="comment">
+		        <a href="#">124</a>
+	          </span>
+	       </dd>
+		 </dl>
+		 <a href="course_detail.html"><img src="images/111.jpg" class="img-responsive" alt=""/></a>
+		 <p>当前，创客教育的实践探索正如火如荼地开展，教育部也提出要积极探索创客教育模式，但要想真正让创客教育在基础教育中落地生根并惠及全体学生，创客教育课程化则是必由之路。因此，该文在课程视野下讨论创客教育的目标价值、理念定位、学习方式、课程模式等基本问题，认为创客教育呼应了人的发展和社会发展的双重需要，是基于数字技术的“构造主义”教育实践；创客课程应以培养学生“通过设计制造以解决问题”的核心素养为目标，定位于融合各学科的工程类综合实践活动课程；其课程内容不具有严格的学科规定性，而是随着创客实践活动的展开呈现出“生成性”特征；基于设计的学习是创客课程的基本学习方式。创客课程应围绕“经验单元”进行课程设计，适宜采用表现性评价作为课程评价方式。</p>
+	     <a href="course_detail.html" class="radial_but">阅读更多</a>
+	    </div>
+	    <div class="blog_box1">
+	   	   <dl class="item_info_dl">
+	   	   	<h2><a href="course_detail.html">张绪培：教育问题出在对两个词的“误读”</a></h2>
+		    <dd>
+				<address class="item_createdby">
+					应试教育 <a href="course_detail.html">教育思想</a>			
+				</address>
+			</dd>
+			<dd>
+		       <time datetime="2015-05-01 19:45" class="item_published">
+			    on 08 Nov 2016			</time>
+	        </dd>
+			<dd>
+		      <span class="comment">
+		        <a href="#">12</a>
+	          </span>
+	       </dd>
+		 </dl>
+		 <a href="course_detail.html"><img src="images/b3.jpg" class="img-responsive" alt=""/></a>
+		 <p>我们现在教育的问题出在哪里呢？在我看来，问题出在我们现在对这两个词普遍存在着误读，一个是“公平”，一个是“质量”，要培养创新创业人才首先要解决这两个误读的问题。对公平，我们误读成什么呢？要把不一样的人培养成一个样，公平吗？我觉得这是我们教育里面存在的最大的问题。</p>
+	     <a href="course_detail.html" class="radial_but">阅读更多</a>
+	    </div>
+	    <div class="blog_box2">
+	   	   <dl class="item_info_dl">
+	   	   	<h2><a href="course_detail.html">关于中小学信息技术学科价值的几点思考</a></h2>
+		    <dd>
+				<address class="item_createdby">
+					 发表在<a href="course_detail.html">中小学信息技术教育</a>			
+				</address>
+			</dd>
+			<dd>
+		       <time datetime="2015-05-01 19:45" class="item_published">
+			    on 21 May 2013			</time>
+	        </dd>
+			<dd>
+		      <span class="comment">
+		        <a href="#">100</a>
+	          </span>
+	       </dd>
+		 </dl>
+		 <a href="course_detail.html"><img src="images/222.jpg" class="img-responsive" alt=""/></a>
+		 <p>从1982年 开始，在我国中小学信息技术教育发展的不同时期，学术界一直在讨论着这个学科的价值和定位。近年来，对这个问题的讨论尤为激烈，众说纷纭，观点各异。人们 越来越清楚地认识到，中小学信息技术学科的定位问题是一个有关学科存亡和发展的大问题，必须经过深入、全面、科学的研究才能得出正确的结论。</p>
+	     <a href="course_detail.html" class="radial_but">阅读更多</a>
+	    </div>
+	  </div>
+	</div>
+	<div class="footer" style="background-color: ">
+    	<div class="container">
+    		<div class="col-md-3 grid_4">
+    		   <h3>创客实验室</h3>	
+    		   <ul class="footer_list">
+    				<li><a href="#">-  关于我们</a></li>
+    				<li><a href="#">-  学员故事</a></li>
+    				<li><a href="#">-  未来学校</a></li>
+    				<li><a href="#">-  线下活动</a></li>
+    			</ul>
+    		</div>
+    		<div class="col-md-3 grid_4">
+    		   <h3>友情链接</h3>
+    			<ul class="footer_list">
+    				<li><a href="#">-  学堂在线 </a></li>
+    				<li><a href="#">-  爱学堂</a></li>
+    				<li><a href="#">-  中小学信息技术学科学习平台</a></li>
+    				<li><a href="#">-  中国知网</a></li>
+    			</ul>
+    		</div>
+    		<div class="col-md-3 grid_4">
+    		   <h3>帮助支持</h3>
+    			<ul class="footer_list">
+    				<li><a href="#">-  帮助中心</a></li>
+    				<li><a href="#">-  新浪微博</a></li>
+    				<li><a href="#">-  隐私政策</a></li>
+    				<li><a href="#">-  腾讯云</a></li>
+    			</ul>
+    		</div>
+    		<div class="col-md-3 grid_4">
+    		   <h3>联系我们</h3>
+    		    <br>
+    			<address>
+                    <strong>地址：秦皇岛市开发区第一中学</strong>
+                    <br>
+                    <span>邮政编码：066001</span>
+                    <br>
+                    <abbr>电话: </abbr> 0335-1234567
+                    <br>
+                    <abbr>邮箱 : </abbr> <a href="mailto@example.com">info(at)Learn.com</a>
+               </address>
+            </div>
+    		<div class="clearfix"> </div>
+    		<div class="copy">
+		       <p>Copyright &copy; 2016.Company name All rights reserved.最终解释权归开发者所有</a></p>
+	        </div>
+    	</div>
+    </div>
+</body>
+</html>	

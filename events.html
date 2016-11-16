@@ -1,0 +1,569 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>活动</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Learn Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/jquery.countdown.css" />
+<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+<!--font-Awesome-->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!--font-Awesome-->
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">科技实验室|Maker</a>
+      </div>
+      <!--navbar-header导航栏头部-->
+      <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a href="login.html"><i class="fa fa-user"></i><span>登录|注册</span></a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-list"></i><span>课程</span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="courses.html">课程分类</a></li>
+                  <li><a href="courses.html">课程列表</a></li>
+                  <li><a href="course_detail.html">详细信息</a></li>
+                  </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-calendar"></i><span>校内活动</span></a>
+                 <ul class="dropdown-menu">
+                  <li><a class='active' href="events.html">黏土机器人</a></li>
+                  <li><a class='active' href="events.html">创客周</a></li>
+                  <li><a class='active' href="events.html">一起DIY</a></li>
+                 </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i><span>English</span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#"><span><i class="flags us"></i><span>English</span></span></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i><span>搜索</span></a>
+                <ul class="dropdown-menu search-form">
+                 <form>        
+                            <input type="text" class="search-text" name="s" placeholder="Search...">    
+                            <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+                       </form>
+              </ul>
+            </li>
+        </ul>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+      <!--/.navbar-collapse-->
+</nav>
+<nav class="navbar nav_bottom" role="navigation">
+ <div class="container">
+ <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header nav_2">
+      <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+   </div> 
+   <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+        <ul class="nav navbar-nav nav_1">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html">关于科技实验室</a></li>
+        <li class="dropdown mega-dropdown active">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">创客社区<span class="caret"></span></a>        
+        <div class="dropdown-menu mega-dropdown-menu">
+                    <div class="container-fluid">
+                <!-- Tab panes -->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="men">
+                            <ul class="nav-list list-inline">
+                                <li><a href="introduce.html"><img src="images/t7.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t8.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t9.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t1.jpg" class="img-responsive" alt=""/></a></li>
+                            </ul>
+                          </div>
+                          <div class="tab-pane" id="women">
+                            <ul class="nav-list list-inline">
+                                <li><a href="introduce.html"><img src="images/t1.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t2.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t3.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t4.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t8.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t6.jpg" class="img-responsive" alt=""/></a></li>
+                            </ul>
+                         </div>
+                       </div>
+                    </div>
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                       <li class="active"><a href="#men" role="tab" data-toggle="tab">School</a></li>
+                       <li><a href="#women" role="tab" data-toggle="tab">College</a></li>
+                   </ul>                    
+        </div>        
+      </li>
+      <li><a href="http://www.aixuetang.com/">爱学堂</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">学习资源<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="resource.html">视频资源</a></li>
+                <li><a href="shortcodes.html">课件下载</a></li>
+                <li><a href="faq.html">教学交流</a></li>
+              </ul>
+            </li>
+            <li><a href="features.html">师生风采</a></li>
+            <li><a href="blog.html">博文</a></li>
+            <!-- <li><a href="features.html">未来教育</a></li> -->
+            <li class="last"><a href="contact.html">交流论坛</a></li>
+        </ul>
+     </div><!-- /.navbar-collapse -->
+   </div>
+</nav>
+<!-- banner -->
+  <div class="courses_banner">
+  	<div class="container">
+  		<h3>校内活动</h3>
+  		<p class="description">
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing condimentum tristique vel, eleifend sed turpis. Pellentesque cursus arcu id magna euismod in elementum purus molestie.
+        </p>
+        <div class="breadcrumb1">
+            <ul>
+                <li class="icon6"><a href="index.html">返回主页</a></li>
+                <li class="current-page">活动</li>
+            </ul>
+        </div>
+  	</div>
+  </div>
+    <!-- //banner -->
+	<div class="courses_box1">
+	   <div class="container">
+	   	  <div class="col-md-4">
+	   	  	<div class="cal1 cal_2"><div class="clndr"><div class="clndr-controls"><div class="clndr-control-button"><p class="clndr-previous-button">previous</p></div><div class="month">September 2015</div><div class="clndr-control-button rightalign"><p class="clndr-next-button">next</p></div></div><table class="clndr-table" border="0" cellspacing="0" cellpadding="0"><thead><tr class="header-days"><td class="header-day">S</td><td class="header-day">M</td><td class="header-day">T</td><td class="header-day">W</td><td class="header-day">T</td><td class="header-day">F</td><td class="header-day">S</td></tr></thead><tbody><tr><td class="day past adjacent-month last-month calendar-day-2015-08-30"><div class="day-contents">30</div></td><td class="day past adjacent-month last-month calendar-day-2015-08-31"><div class="day-contents">31</div></td><td class="day today calendar-day-2015-09-01"><div class="day-contents">1</div></td><td class="day calendar-day-2015-09-02"><div class="day-contents">2</div></td><td class="day calendar-day-2015-09-03"><div class="day-contents">3</div></td><td class="day calendar-day-2015-09-04"><div class="day-contents">4</div></td><td class="day calendar-day-2015-09-05"><div class="day-contents">5</div></td></tr><tr><td class="day calendar-day-2015-09-06"><div class="day-contents">6</div></td><td class="day calendar-day-2015-09-07"><div class="day-contents">7</div></td><td class="day calendar-day-2015-09-08"><div class="day-contents">8</div></td><td class="day calendar-day-2015-09-09"><div class="day-contents">9</div></td><td class="day event calendar-day-2015-09-10"><div class="day-contents">10</div></td><td class="day event calendar-day-2015-09-11"><div class="day-contents">11</div></td><td class="day event calendar-day-2015-09-12"><div class="day-contents">12</div></td></tr><tr><td class="day event calendar-day-2015-09-13"><div class="day-contents">13</div></td><td class="day event calendar-day-2015-09-14"><div class="day-contents">14</div></td><td class="day calendar-day-2015-09-15"><div class="day-contents">15</div></td><td class="day calendar-day-2015-09-16"><div class="day-contents">16</div></td><td class="day calendar-day-2015-09-17"><div class="day-contents">17</div></td><td class="day calendar-day-2015-09-18"><div class="day-contents">18</div></td><td class="day calendar-day-2015-09-19"><div class="day-contents">19</div></td></tr><tr><td class="day calendar-day-2015-09-20"><div class="day-contents">20</div></td><td class="day event calendar-day-2015-09-21"><div class="day-contents">21</div></td><td class="day event calendar-day-2015-09-22"><div class="day-contents">22</div></td><td class="day event calendar-day-2015-09-23"><div class="day-contents">23</div></td><td class="day calendar-day-2015-09-24"><div class="day-contents">24</div></td><td class="day calendar-day-2015-09-25"><div class="day-contents">25</div></td><td class="day calendar-day-2015-09-26"><div class="day-contents">26</div></td></tr><tr><td class="day calendar-day-2015-09-27"><div class="day-contents">27</div></td><td class="day calendar-day-2015-09-28"><div class="day-contents">28</div></td><td class="day calendar-day-2015-09-29"><div class="day-contents">29</div></td><td class="day calendar-day-2015-09-30"><div class="day-contents">30</div></td><td class="day adjacent-month next-month calendar-day-2015-10-01"><div class="day-contents">1</div></td><td class="day adjacent-month next-month calendar-day-2015-10-02"><div class="day-contents">2</div></td><td class="day adjacent-month next-month calendar-day-2015-10-03"><div class="day-contents">3</div></td></tr></tbody></table></div></div>
+			<div class="courses_box1-left">
+                <form>
+                 <div class="select-block1">
+                    <select>
+                        <option value="">Discipline</option>
+                        <option value="">Discipline</option>
+                        <option value="">Discipline</option>
+                        <option value="">Discipline</option>
+                        <option value="">Discipline</option>
+                    </select>
+                 </div>
+                <!-- select-block -->
+                 <div class="select-block1">
+                    <select>
+                        <option value="">Duration</option>
+                        <option value="">Duration</option>
+                        <option value="">Duration</option>
+                        <option value="">Duration</option>
+                        <option value="">Duration</option>
+                    </select>
+                </div>
+                <!-- select-block -->
+                <div class="select-block1">
+                    <select>
+                        <option value="">Level</option>
+                        <option value="">Level</option>
+                        <option value="">Level</option>
+                        <option value="">Level</option>
+                        <option value="">Level</option>
+                    </select>
+                </div>
+                <!-- select-block -->
+                <div class="select-block1">
+                    <select>
+                        <option value="">Location</option>
+                        <option value="">Location</option>
+                        <option value="">Location</option>
+                        <option value="">Location</option>
+                        <option value="">Location</option>
+                    </select>
+                </div>
+                <!-- select-block -->
+                <input type="submit" value="search" class="course-submit">		                            
+            </form>
+	       </div>
+	       <div class="social-widget">
+          	<h2>Connect with us</h2>
+          	  <ul class="courses_social">
+				<li class="facebook-icon">
+					<div>
+						<a href="#" class="fa fa-facebook"></a>
+						<p>2154</p>
+					</div>        							
+				</li>
+				<li class="twitter-icon">
+					<div>
+						<a href="#" class="fa fa-twitter"></a>
+						<p>1425</p>
+					</div>        							
+				</li>
+				<li class="gplus-icon">
+					<div>
+						<a href="#" class="fa fa-google-plus"></a>
+						<p>2150</p>
+					</div>        							
+				</li>
+				<div class="clearfix"> </div>
+			 </ul>
+           </div>
+           <section class="slider">
+            	<h3>Testimonial</h3>
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<div class="banner-info1">
+							   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat quis nostrud.</p>	
+							   <h5><a href="#">Laoreet ,</a>Dateratr since 2015</h5>
+							</div>
+						</li>
+						<li>
+							<div class="banner-info1">
+							   <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, content of a page.</p>	
+							   <h5><a href="#">Distracted ,</a>Dateratr since 2015</h5>
+							</div>
+						</li>
+						<li>
+							<div class="banner-info1">
+							   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of usin but the majority.</p>	
+							   <h5><a href="#">Suffered ,</a>Dateratr since 2015</h5>
+							</div>
+						</li>
+				    </ul>
+				 </div>
+	      </section>
+	      <ul class="posts">
+	      	<h3>Recent Posts</h3>
+			<li>
+				<article class="entry-item">
+					<div class="entry-thumb pull-left">
+						<img src="images/t7.jpg" class="img-responsive" alt=""/>
+					</div>
+					<div class="entry-content">
+						<h6><a href="#">Established</a></h6>
+						<p><a href="#">Admin</a> &nbsp;/&nbsp; 30 Dec 2015</p>
+					</div>
+					<div class="clearfix"> </div>
+				</article>
+			</li>
+			<li>
+				<article class="entry-item">
+					<div class="entry-thumb pull-left">
+						<img src="images/t17.jpg" class="img-responsive" alt=""/>
+					</div>
+					<div class="entry-content">
+						<h6><a href="#">Established</a></h6>
+						<p><a href="#">Admin</a> &nbsp;/&nbsp; 30 Dec 2015</p>
+					</div>
+					<div class="clearfix"> </div>
+				</article>
+			</li>
+			<li>
+				<article class="entry-item">
+					<div class="entry-thumb pull-left">
+						<img src="images/t16.jpg" class="img-responsive" alt=""/>
+					</div>
+					<div class="entry-content">
+						<h6><a href="#">Established</a></h6>
+						<p><a href="#">Admin</a> &nbsp;/&nbsp; 30 Dec 2015</p>
+					</div>
+					<div class="clearfix"> </div>
+				</article>
+		    </li>
+         </ul>
+		</div>
+		<div class="col-md-8 detail">
+	       <div class="event-page">
+	       	 <div class="row">
+	       	 	<div class="col-xs-4 col-sm-4">
+	       	 	  <div class="event-img">
+	       	 		<a href="event_single.html"><img src="images/e1.jpg" class="img-responsive" alt=""/></a>
+	       	 		<div class="over-image"></div>
+	       	 	  </div>
+	       	 	</div>
+	       	 	<div class="col-xs-8 col-sm-8 event-desc">
+	       	 		<h2><a href="event_single.html">Aliquam Quaerat Voluptatem</a></h2>
+	       	 	    <div class="event-info-text">
+	       	 		   <div class="event-info-middle"><p style="display:inline;"><span class="event-bold">Speakers : &nbsp;</span></p>
+       	 				   <ul class="event-speakers" style="display:inline">
+       	 						<li><a href="event_single.html">Handful</a></li>
+       	 						<li><a href="event_single.html">Renaissance</a></li>
+       	 						<li><a href="event_single.html">Doloremque</a></li>
+       	 						<li><a href="event_single.html">Temporibus</a></li>
+       	 				   </ul>
+       	 				   <p><span class="event-bold">Date : &nbsp;</span>Dec 01, 2015 - Dec 09, 2015</p>
+       	 				   <p><span class="event-bold">Time : &nbsp;</span>09:22 AM - 05:16 AM</p>
+       	 				   <p><span class="event-bold">Location : &nbsp;</span>Masko, Russia</p>
+	       	 		   </div>
+	       	 	    </div>
+	       	  </div>
+	       	</div>
+		   </div>
+		   <div class="event-page">
+	       	 <div class="row">
+	       	 	<div class="col-xs-4 col-sm-4">
+	       	 	  <div class="event-img">
+	       	 		<a href="event_single.html"><img src="images/e2.jpg" class="img-responsive" alt=""/></a>
+	       	 		<div class="over-image"></div>
+	       	 	  </div>
+	       	 	</div>
+	       	 	<div class="col-xs-8 col-sm-8 event-desc">
+	       	 		<h2><a href="event_single.html">Aliquam Quaerat Voluptatem</a></h2>
+	       	 	    <div class="event-info-text">
+	       	 		   <div class="event-info-middle"><p style="display:inline;"><span class="event-bold">Speakers : &nbsp;</span></p>
+       	 				   <ul class="event-speakers" style="display:inline">
+       	 						<li><a href="event_single.html">Handful</a></li>
+       	 						<li><a href="event_single.html">Renaissance</a></li>
+       	 						<li><a href="event_single.html">Doloremque</a></li>
+       	 						<li><a href="event_single.html">Temporibus</a></li>
+       	 				   </ul>
+       	 				   <p><span class="event-bold">Date : &nbsp;</span>Dec 01, 2015 - Dec 09, 2015</p>
+       	 				   <p><span class="event-bold">Time : &nbsp;</span>09:22 AM - 05:16 AM</p>
+       	 				   <p><span class="event-bold">Location : &nbsp;</span>Masko, Russia</p>
+	       	 		   </div>
+	       	 	    </div>
+	       	  </div>
+	       	</div>
+		  </div>
+		  <div class="event-page">
+	       	 <div class="row">
+	       	 	<div class="col-xs-4 col-sm-4">
+	       	 	  <div class="event-img">
+	       	 		<a href="event_single.html"><img src="images/e3.jpg" class="img-responsive" alt=""/></a>
+	       	 		<div class="over-image"></div>
+	       	 	  </div>
+	       	 	</div>
+	       	 	<div class="col-xs-8 col-sm-8 event-desc">
+	       	 		<h2><a href="event_single.html">Aliquam Quaerat Voluptatem</a></h2>
+	       	 	    <div class="event-info-text">
+	       	 		   <div class="event-info-middle"><p style="display:inline;"><span class="event-bold">Speakers : &nbsp;</span></p>
+       	 				   <ul class="event-speakers" style="display:inline">
+       	 						<li><a href="event_single.html">Handful</a></li>
+       	 						<li><a href="event_single.html">Renaissance</a></li>
+       	 						<li><a href="event_single.html">Doloremque</a></li>
+       	 						<li><a href="event_single.html">Temporibus</a></li>
+       	 				   </ul>
+       	 				   <p><span class="event-bold">Date : &nbsp;</span>Dec 01, 2015 - Dec 09, 2015</p>
+       	 				   <p><span class="event-bold">Time : &nbsp;</span>09:22 AM - 05:16 AM</p>
+       	 				   <p><span class="event-bold">Location : &nbsp;</span>Masko, Russia</p>
+	       	 		   </div>
+	       	 	    </div>
+	       	  </div>
+	       	</div>
+		  </div>
+		  <div class="event-page">
+	       	 <div class="row">
+	       	 	<div class="col-xs-4 col-sm-4">
+	       	 	  <div class="event-img">
+	       	 		<a href="event_single.html"><img src="images/e1.jpg" class="img-responsive" alt=""/></a>
+	       	 		<div class="over-image"></div>
+	       	 	  </div>
+	       	 	</div>
+	       	 	<div class="col-xs-8 col-sm-8 event-desc">
+	       	 		<h2><a href="event_single.html">Aliquam Quaerat Voluptatem</a></h2>
+	       	 	    <div class="event-info-text">
+	       	 		   <div class="event-info-middle"><p style="display:inline;"><span class="event-bold">Speakers : &nbsp;</span></p>
+       	 				   <ul class="event-speakers" style="display:inline">
+       	 						<li><a href="event_single.html">Handful</a></li>
+       	 						<li><a href="event_single.html">Renaissance</a></li>
+       	 						<li><a href="event_single.html">Doloremque</a></li>
+       	 						<li><a href="event_single.html">Temporibus</a></li>
+       	 				   </ul>
+       	 				   <p><span class="event-bold">Date : &nbsp;</span>Dec 01, 2015 - Dec 09, 2015</p>
+       	 				   <p><span class="event-bold">Time : &nbsp;</span>09:22 AM - 05:16 AM</p>
+       	 				   <p><span class="event-bold">Location : &nbsp;</span>Masko, Russia</p>
+	       	 		   </div>
+	       	 	    </div>
+	       	  </div>
+	       	</div>
+		  </div>
+		  <div class="event-page">
+	       	 <div class="row">
+	       	 	<div class="col-xs-4 col-sm-4">
+	       	 	  <div class="event-img">
+	       	 		<a href="event_single.html"><img src="images/e2.jpg" class="img-responsive" alt=""/></a>
+	       	 		<div class="over-image"></div>
+	       	 	  </div>
+	       	 	</div>
+	       	 	<div class="col-xs-8 col-sm-8 event-desc">
+	       	 		<h2><a href="event_single.html">Aliquam Quaerat Voluptatem</a></h2>
+	       	 	    <div class="event-info-text">
+	       	 		   <div class="event-info-middle"><p style="display:inline;"><span class="event-bold">Speakers : &nbsp;</span></p>
+       	 				   <ul class="event-speakers" style="display:inline">
+       	 						<li><a href="event_single.html">Handful</a></li>
+       	 						<li><a href="event_single.html">Renaissance</a></li>
+       	 						<li><a href="event_single.html">Doloremque</a></li>
+       	 						<li><a href="event_single.html">Temporibus</a></li>
+       	 				   </ul>
+       	 				   <p><span class="event-bold">Date : &nbsp;</span>Dec 01, 2015 - Dec 09, 2015</p>
+       	 				   <p><span class="event-bold">Time : &nbsp;</span>09:22 AM - 05:16 AM</p>
+       	 				   <p><span class="event-bold">Location : &nbsp;</span>Masko, Russia</p>
+	       	 		   </div>
+	       	 	    </div>
+	       	  </div>
+	       	</div>
+		  </div>
+		  <div class="event-page">
+	       	 <div class="row">
+	       	 	<div class="col-xs-4 col-sm-4">
+	       	 	  <div class="event-img">
+	       	 		<a href="event_single.html"><img src="images/e3.jpg" class="img-responsive" alt=""/></a>
+	       	 		<div class="over-image"></div>
+	       	 	  </div>
+	       	 	</div>
+	       	 	<div class="col-xs-8 col-sm-8 event-desc">
+	       	 		<h2><a href="event_single.html">Aliquam Quaerat Voluptatem</a></h2>
+	       	 	    <div class="event-info-text">
+	       	 		   <div class="event-info-middle"><p style="display:inline;"><span class="event-bold">Speakers : &nbsp;</span></p>
+       	 				   <ul class="event-speakers" style="display:inline">
+       	 						<li><a href="event_single.html">Handful</a></li>
+       	 						<li><a href="event_single.html">Renaissance</a></li>
+       	 						<li><a href="event_single.html">Doloremque</a></li>
+       	 						<li><a href="event_single.html">Temporibus</a></li>
+       	 				   </ul>
+       	 				   <p><span class="event-bold">Date : &nbsp;</span>Dec 01, 2015 - Dec 09, 2015</p>
+       	 				   <p><span class="event-bold">Time : &nbsp;</span>09:22 AM - 05:16 AM</p>
+       	 				   <p><span class="event-bold">Location : &nbsp;</span>Masko, Russia</p>
+	       	 		   </div>
+	       	 	    </div>
+	       	  </div>
+	       	</div>
+		  </div>
+		  <div class="event-page">
+	       	 <div class="row">
+	       	 	<div class="col-xs-4 col-sm-4">
+	       	 	  <div class="event-img">
+	       	 		<a href="event_single.html"><img src="images/e1.jpg" class="img-responsive" alt=""/></a>
+	       	 		<div class="over-image"></div>
+	       	 	  </div>
+	       	 	</div>
+	       	 	<div class="col-xs-8 col-sm-8 event-desc">
+	       	 		<h2><a href="event_single.html">Aliquam Quaerat Voluptatem</a></h2>
+	       	 	    <div class="event-info-text">
+	       	 		   <div class="event-info-middle"><p style="display:inline;"><span class="event-bold">Speakers : &nbsp;</span></p>
+       	 				   <ul class="event-speakers" style="display:inline">
+       	 						<li><a href="event_single.html">Handful</a></li>
+       	 						<li><a href="event_single.html">Renaissance</a></li>
+       	 						<li><a href="event_single.html">Doloremque</a></li>
+       	 						<li><a href="event_single.html">Temporibus</a></li>
+       	 				   </ul>
+       	 				   <p><span class="event-bold">Date : &nbsp;</span>Dec 01, 2015 - Dec 09, 2015</p>
+       	 				   <p><span class="event-bold">Time : &nbsp;</span>09:22 AM - 05:16 AM</p>
+       	 				   <p><span class="event-bold">Location : &nbsp;</span>Masko, Russia</p>
+	       	 		   </div>
+	       	 	    </div>
+	       	  </div>
+	       	</div>
+		  </div>
+		  <ul class="pagination event_pagination">
+	   	 	<li class="active"><a href="#">1</a></li>
+	   	 	<li><a href="#">2</a></li>
+	   	 </ul>
+		 </div>
+	     <div class="clearfix"> </div>
+	   </div>
+	</div>
+    <div class="footer" style="background-color: ">
+      <div class="container">
+        <div class="col-md-3 grid_4">
+           <h3>创客实验室</h3> 
+           <ul class="footer_list">
+            <li><a href="#">-  关于我们</a></li>
+            <li><a href="#">-  学员故事</a></li>
+            <li><a href="#">-  未来学校</a></li>
+            <li><a href="#">-  线下活动</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 grid_4">
+           <h3>友情链接</h3>
+          <ul class="footer_list">
+            <li><a href="#">-  学堂在线 </a></li>
+            <li><a href="#">-  爱学堂</a></li>
+            <li><a href="#">-  中小学信息技术学科学习平台</a></li>
+            <li><a href="#">-  中国知网</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 grid_4">
+           <h3>帮助支持</h3>
+          <ul class="footer_list">
+            <li><a href="#">-  帮助中心</a></li>
+            <li><a href="#">-  新浪微博</a></li>
+            <li><a href="#">-  隐私政策</a></li>
+            <li><a href="#">-  腾讯云</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 grid_4">
+           <h3>联系我们</h3>
+            <br>
+          <address>
+                    <strong>地址：秦皇岛市开发区第一中学</strong>
+                    <br>
+                    <span>邮政编码：066001</span>
+                    <br>
+                    <abbr>电话: </abbr> 0335-1234567
+                    <br>
+                    <abbr>邮箱 : </abbr> <a href="mailto@example.com">info(at)Learn.com</a>
+               </address>
+            </div>
+        <div class="clearfix"> </div>
+        <div class="copy">
+           <p>Copyright &copy; 2016.Company name All rights reserved.最终解释权归开发者所有</a></p>
+          </div>
+      </div>
+    </div>
+<!-- FlexSlider -->
+<link href="css/flexslider.css" rel='stylesheet' type='text/css' />
+  <script defer src="js/jquery.flexslider.js"></script>
+  <script type="text/javascript">
+	$(function(){
+	  SyntaxHighlighter.all();
+	});
+	$(window).load(function(){
+	  $('.flexslider').flexslider({
+		animation: "slide",
+		start: function(slider){
+		  $('body').removeClass('loading');
+		}
+	  });
+	});
+  </script>
+<!-- FlexSlider -->
+</body>
+</html>	

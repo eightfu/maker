@@ -1,0 +1,404 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>登录确认</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Learn Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/jquery.countdown.css" />
+<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+<!--font-Awesome-->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!--font-Awesome-->
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">科技实验室|Maker</a>
+      </div>
+      <!--navbar-header导航栏头部-->
+      <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a href="login.html"><i class="fa fa-user"></i><span>登录|注册</span></a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-list"></i><span>课程</span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="courses.html">课程分类</a></li>
+                  <li><a href="courses.html">课程列表</a></li>
+                  <li><a href="course_detail.html">详细信息</a></li>
+                  </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-calendar"></i><span>校内活动</span></a>
+                 <ul class="dropdown-menu">
+                  <li><a href="events.html">黏土机器人</a></li>
+                  <li><a href="events.html">创客周</a></li>
+                  <li><a href="events.html">一起DIY</a></li>
+                 </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i><span>English</span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#"><span><i class="flags us"></i><span>English</span></span></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i><span>搜索</span></a>
+                <ul class="dropdown-menu search-form">
+                 <form>        
+                            <input type="text" class="search-text" name="s" placeholder="Search...">    
+                            <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+                       </form>
+              </ul>
+            </li>
+        </ul>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+      <!--/.navbar-collapse-->
+</nav>
+<nav class="navbar nav_bottom" role="navigation">
+ <div class="container">
+ <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header nav_2">
+      <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+   </div> 
+   <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+        <ul class="nav navbar-nav nav_1">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html">关于科技实验室</a></li>
+        <li class="dropdown mega-dropdown active">
+          <a href="#" class="dropdown-toggle active" data-toggle="dropdown">创客社区<span class="caret"></span></a>        
+        <div class="dropdown-menu mega-dropdown-menu">
+                    <div class="container-fluid">
+                <!-- Tab panes -->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="men">
+                            <ul class="nav-list list-inline">
+                                <li><a href="introduce.html"><img src="images/t7.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t8.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t9.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t1.jpg" class="img-responsive" alt=""/></a></li>
+                            </ul>
+                          </div>
+                          <div class="tab-pane" id="women">
+                            <ul class="nav-list list-inline">
+                                <li><a href="introduce.html"><img src="images/t1.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t2.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t3.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t4.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t8.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="introduce.html"><img src="images/t6.jpg" class="img-responsive" alt=""/></a></li>
+                            </ul>
+                         </div>
+                       </div>
+                    </div>
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                       <li class="active"><a href="#men" role="tab" data-toggle="tab">School</a></li>
+                       <li><a href="#women" role="tab" data-toggle="tab">College</a></li>
+                   </ul>                    
+        </div>        
+      </li>
+      <li><a href="http://www.aixuetang.com/">爱学堂</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">学习资源<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="resource.html">视频资源</a></li>
+                <li><a href="shortcodes.html">课件下载</a></li>
+                <li><a href="faq.html">教学交流</a></li>
+              </ul>
+            </li>
+            <li><a href="features.html">师生风采</a></li>
+            <li><a href="blog.html">博文</a></li>
+            <!-- <li><a href="features.html">未来教育</a></li> -->
+            <li class="last"><a href="contact.html">交流论坛</a></li>
+        </ul>
+     </div><!-- /.navbar-collapse -->
+   </div>
+</nav>
+<!-- banner -->
+  <div class="courses_banner">
+  	<div class="container">
+  		<h3>个性化设置</h3>
+  		<p class="description">
+             个性化设置模块,以便更好地为你匹配课程和体验学习平台,同时帮你记录下每一阶段的教育经历~
+        </p>
+        <div class="breadcrumb1">
+            <ul>
+                <li class="icon6"><a href="index.html">返回主页</a></li>
+                <li class="current-page">创客社区</li>
+            </ul>
+        </div>
+  	</div>
+  </div>
+    <!-- //banner -->
+	<div class="admission">
+	   <div class="container">
+	   	  <div class="col-md-6 admission_left">
+	   	  	<h2>个人信息</h2>
+	   	  	<form>
+             <div class="input-group input-group1">
+                <input class="form-control has-dark-background" name="slider-name" id="slider-name" placeholder="姓" type="text" required="">
+             </div>
+             <div class="input-group input-group1">
+                <input class="form-control has-dark-background" name="slider-name" id="slider-name" placeholder="名" type="text" required="">
+             </div>
+            <!-- select-block -->
+              <div class="col-md-4 form_box">
+                  <div class="select-block1">
+                    <select>
+	                    <option value="">日期</option>
+	                    <option value="">1</option>
+	                    <option value="">2</option>
+	                    <option value="">3</option>
+	                    <option value="">4</option>
+	                    <option value="">5</option>
+	                    <option value="">6</option>
+	                    <option value="">7</option>
+	                    <option value="">8</option>
+	                    <option value="">9</option>
+	                    <option value="">10</option>
+	                    <option value="">11</option>
+	                    <option value="">12</option>
+	                    <option value="">13</option>
+	                    <option value="">14</option>
+	                    <option value="">15</option>
+	                    <option value="">16</option>
+	                    <option value="">17</option>
+	                    <option value="">18</option>
+	                    <option value="">19</option>
+	                    <option value="">20</option>
+	                    <option value="">21</option>
+	                    <option value="">22</option>
+	                    <option value="">23</option>
+	                    <option value="">24</option>
+	                    <option value="">25</option>
+	                    <option value="">26</option>
+	                    <option value="">27</option>
+	                    <option value="">28</option>
+	                    <option value="">29</option>
+	                    <option value="">30</option>
+	                    <option value="">31</option>
+                    </select>
+                  </div>
+                 </div>
+                 <div class="col-md-4 form_box">
+                   <div class="select-block1">
+                    <select>
+	                    <option value="">月份</option>
+	                    <option value="">一月|January</option>
+	                    <option value="">二月|February</option>
+	                    <option value="">三月March</option>
+	                    <option value="">四月|April</option>
+	                    <option value="">五月|May</option>
+	                    <option value="">六月|June</option>
+	                    <option value="">七月|July</option>
+	                    <option value="">八月|August</option>
+	                    <option value="">九月|September</option>
+	                    <option value="">十月|October</option>
+	                    <option value="">十一月|November</option>
+	                    <option value="">十二月|December</option>
+                    </select>
+                  </div>
+                 </div>
+                 <div class="col-md-4 form_box1">
+                   <div class="select-block1">
+                    <select>
+	                    <option value="">年份</option>
+	                    <option value="">1980</option>
+	                    <option value="">1981</option>
+	                    <option value="">1982</option>
+	                    <option value="">1983</option>
+	                    <option value="">1984</option>
+	                    <option value="">1985</option>
+	                    <option value="">1986</option>
+	                    <option value="">1987</option>
+	                    <option value="">1988</option>
+	                    <option value="">1989</option>
+	                    <option value="">1990</option>
+	                    <option value="">1991</option>
+	                    <option value="">1992</option>
+	                    <option value="">1993</option>
+	                    <option value="">1994</option>
+	                    <option value="">1995</option>
+	                    <option value="">1996</option>
+	                    <option value="">1997</option>
+	                    <option value="">1998</option>
+	                    <option value="">1999</option>
+	                    <option value="">2000</option>
+	                    <option value="">2001</option>
+	                    <option value="">2002</option>
+	                    <option value="">2003</option>
+	                    <option value="">2004</option>
+	                    <option value="">2005</option>
+	                    <option value="">2006</option>
+	                    <option value="">2007</option>
+	                    <option value="">2008</option>
+	                    <option value="">2009</option>
+	                    <option value="">2010</option>
+	                    <option value="">2011</option>
+	                    <option value="">2012</option>
+	                    <option value="">2013</option>
+	                    <option value="">2014</option>
+	                    <option value="">2015</option>
+                    </select>
+                   </div>
+                  </div>
+                  <div class="clearfix"> </div>
+               <div class="select-block1">
+                <select>
+                    <option value="">国籍</option>
+                    <option value="">Japan</option>
+                        <option value="">Kenya</option>
+                        <option value="">Dubai</option>
+                        <option value="">Italy</option>
+                        <option value="">Greece</option> 
+                        <option value="">Iceland</option> 
+                        <option value="">中国|China</option> 
+                        <option value="">Doha</option> 
+                        <option value="">Irland</option> 
+                        <option value="">Srilanka</option> 
+                        <option value="">Russia</option> 
+                        <option value="">香港|Hong Kong</option> 
+                        <option value="">Germany</option>
+                        <option value="">Canada</option>  
+                        <option value="">Mexico</option> 
+                        <option value="">Nepal</option>
+                        <option value="">Norway</option> 
+                        <option value="">Oman</option>
+                        <option value="">Pakistan</option>  
+                        <option value="">Kuwait</option> 
+                        <option value="">Indonesia</option>  
+                        <option value="">Spain</option>
+                        <option value="">Thailand</option>  
+                        <option value="">Saudi Arabia</option> 
+                        <option value="">Poland</option> 
+                </select>
+              </div>
+              <div class="form-group col-md-12 form-group1">
+                <label class="col-md-7 control-lable" for="sex">性别</label>
+                <div class="col-md-5">
+                    <div class="radios">
+				        <label for="radio-01" class="label_radio">
+				            <input type="radio" checked=""> 男|Male
+				        </label>
+				        <label for="radio-02" class="label_radio">
+				            <input type="radio"> 女|Female
+				        </label>
+	                </div>
+                </div>
+                <div class="clearfix"> </div>
+             </div>
+             <div class="form-field">
+			   <div class="col-md-7 photo"><label>上传照片 <em>*</em> :&nbsp;&nbsp;&nbsp;</label></div>
+			   <div class="col-md-5"><input name="photo" id="cphoto" type="file" class="file upload_1" onchange="AlertFilesize();"></div>
+			   <div class="clearfix"> </div>
+             </div>
+              </form>
+            </div>
+            <div class="col-md-6 admission_right">
+              <h3>联系信息</h3>
+              <form>
+	             <div class="input-group input-group1">
+	                <input class="form-control has-dark-background" name="slider-name" id="slider-name" placeholder="邮箱" type="text" required="">
+	             </div>
+	             <div class="input-group input-group1">
+	                <input class="form-control has-dark-background" name="slider-name" id="slider-name" placeholder="电话号码" type="text" required="">
+	             </div>
+	             <div class="input-group input-group1">
+	                <input class="form-control has-dark-background" name="slider-name" id="slider-name" placeholder="邮编" type="text" required="">
+	             </div>
+	            <input type="submit" value="提交" class="course-submit">		                            
+             </form>	
+	   	   </div>
+	   	  <div class="clearfix"> </div>
+	</div>
+<div class="footer" style="background-color: ">
+      <div class="container">
+        <div class="col-md-3 grid_4">
+           <h3>创客实验室</h3> 
+           <ul class="footer_list">
+            <li><a href="#">-  关于我们</a></li>
+            <li><a href="#">-  学员故事</a></li>
+            <li><a href="#">-  未来学校</a></li>
+            <li><a href="#">-  线下活动</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 grid_4">
+           <h3>友情链接</h3>
+          <ul class="footer_list">
+            <li><a href="#">-  学堂在线 </a></li>
+            <li><a href="#">-  爱学堂</a></li>
+            <li><a href="#">-  中小学信息技术学科学习平台</a></li>
+            <li><a href="#">-  中国知网</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 grid_4">
+           <h3>帮助支持</h3>
+          <ul class="footer_list">
+            <li><a href="#">-  帮助中心</a></li>
+            <li><a href="#">-  新浪微博</a></li>
+            <li><a href="#">-  隐私政策</a></li>
+            <li><a href="#">-  腾讯云</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 grid_4">
+           <h3>联系我们</h3>
+            <br>
+          <address>
+                    <strong>地址：秦皇岛市开发区第一中学</strong>
+                    <br>
+                    <span>邮政编码：066001</span>
+                    <br>
+                    <abbr>电话: </abbr> 0335-1234567
+                    <br>
+                    <abbr>邮箱 : </abbr> <a href="mailto@example.com">info(at)Learn.com</a>
+               </address>
+            </div>
+        <div class="clearfix"> </div>
+        <div class="copy">
+           <p>Copyright &copy; 2016.Company name All rights reserved.最终解释权归开发者所有</a></p>
+          </div>
+      </div>
+    </div>
+</body>
+</html>	
